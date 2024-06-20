@@ -1,32 +1,32 @@
-/*BEGIN PS5 Controller Styling*/
+/*BEGIN PS5 Scuf Reflex Controller Styling*/
 
-.controller.ds4{
+.controller.custom{
     background: url(base.png); 
     height: 1004px;
     width: 1216px;
     background-repeat:no-repeat;
 }
 
-.ds4.disconnected { 
+.custom.disconnected { 
     background: url(disconnected.png);
 }
 
-.ds4.disconnected div {
+.custom.disconnected div {
     display: none;
 }
 
- .ds4 .triggers{ 
+ .custom .triggers{ 
     position: absolute;
     background-repeat:no-repeat;
 } 
 
-.ds4 .trigger{
+.custom .trigger{
     height: 1004px;
     width: 1216px;
     background-repeat:no-repeat;
 }
 
-.ds4 .trigger.left{ 
+.custom .trigger.left{ 
     height: 1004px;
     width: 1216px;
     background: url(L2.png);
@@ -34,7 +34,7 @@
     background-repeat:no-repeat;
 }
 
-.ds4 .trigger.right{
+.custom .trigger.right{
     height: 1004px;
     width: 1216px;
     background: url(R2.png);
@@ -42,15 +42,15 @@
     background-repeat:no-repeat;
 }
 
-.ds4 .bumper{
+.custom .bumper{
 opacity: 0;
 }
 
-.ds4 .bumper.pressed{ 
+.custom .bumper.pressed{ 
     opacity: 1;
 }
 
-.ds4 .bumper.right{
+.custom .bumper.right{
     height: 1004px;
     width: 1216px;
     background: url(R1.png);
@@ -58,7 +58,7 @@ opacity: 0;
     background-repeat:no-repeat;
 }
 
-.ds4 .bumper.left{
+.custom .bumper.left{
     height: 1004px;
     width: 1216px;
     background: url(L1.png);
@@ -66,7 +66,7 @@ opacity: 0;
     background-repeat:no-repeat;
 }
 
-.ds4 .arrows{
+.custom .arrows{
     position: absolute;
     width: 205px;
     height: 19px;
@@ -75,17 +75,17 @@ opacity: 0;
     background-repeat:no-repeat;
 }
 
-.ds4 .back{
+.custom .back{
     opacity: 0;
     position: absolute;
 }
 
-.ds4 .start{
+.custom .start{
     opacity: 0;
     position: absolute;
 }
 
-.ds4 .back.pressed{
+.custom .back.pressed{
     height: 1004px;
     width: 1216px;
     left: -291px;
@@ -95,7 +95,7 @@ opacity: 0;
     opacity: 1;
 } 
 
-.ds4 .start.pressed{
+.custom .start.pressed{
     height: 1004px;
     width: 1216px;
     left: -291px;
@@ -104,67 +104,67 @@ opacity: 0;
     opacity: 1;
 }
 
-.ds4 .abxy{
+.custom .abxy{
     position: absolute;
     background-repeat:no-repeat;
 }
 
-.ds4 .button{
+.custom .button{
     position: absolute;
 }
 
-.ds4 .button.pressed{
+.custom .button.pressed{
     background-position-y: -00px;
     margin-top: 0px;
 }
 
-.ds4 .a.pressed{
+.custom .a.pressed{
     background: url(X.png); 
     height: 1004px;
     width: 1216px;
     background-repeat:no-repeat;
 }
 
-.ds4 .b.pressed{
+.custom .b.pressed{
     background: url(O.png);
     height: 1004px;
     width: 1216px;
     background-repeat:no-repeat;
 }
 
-.ds4 .x.pressed{
+.custom .x.pressed{
     background: url(S.png); 
     height: 1004px;
     width: 1216px;
     background-repeat:no-repeat;
 }
 
-.ds4 .y.pressed{
+.custom .y.pressed{
     background: url(T.png) ; 
     height: 1004px;
     width: 1216px;
     background-repeat:no-repeat;
 }
 
-.ds4 .meta.pressed{
+.custom .meta.pressed{
     background: url(meta.png) ; 
     height: 1004px;
     width: 1216px;
     background-repeat:no-repeat;
 }
 
-.ds4 .sticks{    
+.custom .sticks{    
     left: 334px;
     top: 455px;
     position: absolute;
     background-repeat:no-repeat;
 }
 
-.ds4 .stick.{
+.custom .stick.{
     position: absolute;
 }
 
-.ds4 .stick.pressed.left{
+.custom .stick.pressed.left{
     position: absolute;
     background: url(L3.png);
     height: 163px;
@@ -172,7 +172,7 @@ opacity: 0;
     background-repeat:no-repeat;
 }
 
-.ds4 .stick.pressed.right{
+.custom .stick.pressed.right{
     position: absolute;
     background: url(R3.png);
     height: 163px;
@@ -180,7 +180,7 @@ opacity: 0;
     background-repeat:no-repeat;
 }
 
-.ds4 .stick.left{
+.custom .stick.left{
     position: absolute;
     background: url(LS.png);
     height: 163px;
@@ -188,7 +188,7 @@ opacity: 0;
     background-repeat:no-repeat;
 }
 
-.ds4 .stick.right{
+.custom .stick.right{
     position: absolute;
     background: url(RS.png);
     left: 403px;
@@ -197,46 +197,46 @@ opacity: 0;
     background-repeat:no-repeat;
 }
 
-.ds4 .dpad{
+.custom .dpad{
     height: 1004px;
     width: 1216px;
     background-repeat:no-repeat;
 }
 
-.ds4 .face{
+.custom .face{
     background: url(dpad.png);
     position: absolute;
 }
 
-.ds4 .face.right.pressed{
+.custom .face.right.pressed{
     background: url(RIGHT.png); 
     height: 1004px;
     width: 1216px;
     background-repeat:no-repeat;
 }
 
-.ds4 .face.left.pressed{
+.custom .face.left.pressed{
     background: url(LEFT.png); 
     height: 1004px;
     width: 1216px;
     background-repeat:no-repeat;
 }
 
-.ds4 .face.up.pressed{
+.custom .face.up.pressed{
     background: url(UP.png); 
     height: 1004px;
     width: 1216px;
     background-repeat:no-repeat;
 }
 
-.ds4 .face.down.pressed{ 
+.custom .face.down.pressed{ 
     background: url(DOWN.png); 
     height: 1004px;
     width: 1216px;
     background-repeat:no-repeat;
 }
 
-.ds4 .touchpad.pressed{
+.custom .touchpad.pressed{
     position:absolute;
     height: 1004px;
     width: 1216px;
@@ -244,4 +244,4 @@ opacity: 0;
     background-repeat:no-repeat;
 }
 
-END PS5 Styling
+/*END PS5 Scuf Reflex Controller Styling*/
